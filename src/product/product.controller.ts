@@ -14,6 +14,7 @@ export class ProductController {
     return this.productService.create(createProductDto);
   }
 
+  // not using Auth on GET requests to get some variety
   @Get()
   findAll() {
     return this.productService.findAll();
