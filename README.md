@@ -10,7 +10,7 @@ Solution of "The Mission" of New Media Online.
 
 ## Prerequisites
 
-- [NPM](https://nodejs.org)
+- [NodeJS](https://nodejs.org)
 - A local [MongoDB](https://www.mongodb.com/) service at mongodb://127.0.0.1:27017/
 - The supplied .env file for POST/PUT/DELETE functionality using basic auth (GET is not locked)
 
