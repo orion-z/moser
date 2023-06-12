@@ -10,6 +10,7 @@ export class ProductService {
 
   constructor(@InjectModel(Product.name) private readonly productModel: Model <ProductDocument>) {}
 
+  
   async create(createProductDto: CreateProductDto): Promise <ProductDocument> {
     const product = new this.productModel(createProductDto);
     return product.save();
